@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { FaTimes, FaBars } from "react-icons/fa";
-import Rklogo from "../Images/Rk-Logo.png";
+import Logo from "../Images/Logo1.png";
 
 function NavBar() {
   const [nav, setNav] = useState(false);
@@ -30,7 +30,7 @@ function NavBar() {
     <div className="w-full fixed top-0 z-50 bg-transparent">
       <div className="flex justify-between items-center w-full h-[80px] px-4">
         <div>
-          {/* <img className="w-[30%] m-auto pt-10" src={Rklogo} alt="Logo" /> */}
+          <img className="w-[40%] m-[2rem] pt-" src={Logo} alt="Logo" />
         </div>
 
         <ul className="hidden md:flex">

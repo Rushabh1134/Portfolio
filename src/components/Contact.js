@@ -48,8 +48,8 @@ function Contact() {
     e.preventDefault();
     if (validate()) {
       emailjs
-        .sendForm("service_1aqvn1u", "template_ajw35ws", formRef.current, {
-          publicKey: "9OqJmoJu0ShvBOf56",
+        .sendForm("service_pzt005e", "template_aiat8xd", formRef.current, {
+          publicKey: "1IO2MILK1GLZ2b1mM",
         })
         .then(
           () => {

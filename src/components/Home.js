@@ -8,7 +8,13 @@ import leftImage from "../Images/RKhero-image.png"; // Update this path to your 
 
 const Homepage = () => {
   const handleDownload = () => {
-    // Your download resume logic here
+    const resumeUrl = `${process.env.PUBLIC_URL}/resume/resume.pdf`;
+    const link = document.createElement("a");
+    link.href = resumeUrl;
+    link.setAttribute("download", "resume.pdf");
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
   };
 
   return (

@@ -39,7 +39,6 @@ const Homepage = () => {
                     "Rushabh Karangutkar",
                     "Music Production",
                     "Film score composer",
-                    "Film score composer",
                   ],
                   autoStart: true,
                   loop: true,

@@ -1,9 +1,10 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { FaTimes, FaBars } from "react-icons/fa";
 import Logo from "../Images/Logo1.png";
 
 function NavBar() {
   const [nav, setNav] = useState(false);
+  const [hasBackground, setHasBackground] = useState(false);
 
   const smoothScroll = (target) => {
     const element = document.querySelector(target);
@@ -26,18 +27,35 @@ function NavBar() {
     "contact",
   ];
 
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 0) {
+        setHasBackground(true);
+      } else {
+        setHasBackground(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
   return (
-    <div className="w-full fixed top-0 z-50 bg-transparent">
+    <div
+      className={`w-full fixed top-0 z-50 ${
+        hasBackground ? "bg-black shadow-lg" : "bg-transparent"
+      } transition-colors duration-300`}
+    >
       <div className="flex justify-between items-center w-full h-[80px] px-4">
         <div>
-          <img className="w-[40%] m-[2rem] pt-" src={Logo} alt="Logo" />
+          <img className="w-[40%] m-[2rem]" src={Logo} alt="Logo" />
         </div>
 
         <ul className="hidden md:flex">
           {navSection.map((id) => (
             <li
               key={id}
-              className="px-4 md:px-4 lg:px-6 cursor-pointer capitalize font-medium text-white hover:scale-105 hover:text-[#d90a2c]  duration-200"
+              className="px-4 md:px-4 lg:px-6 cursor-pointer capitalize font-medium text-white hover:scale-105 hover:text-[#d90a2c] duration-200"
               onClick={() => smoothScroll(`#${id}`)}
             >
               {id.charAt(0).toUpperCase() + id.slice(1)}
@@ -47,9 +65,13 @@ function NavBar() {
 
         <div
           onClick={() => setNav(!nav)}
-          className="cursor-pointer pr-4 z-10 text-white md:hidden"
+          className="cursor-pointer pr-4 z-10 text-black md:hidden"
         >
-          {nav ? <FaTimes size={30} /> : <FaBars size={30} />}
+          {nav ? (
+            <FaTimes className="text-white" size={30} />
+          ) : (
+            <FaBars className="text-white" size={30} />
+          )}
         </div>
 
         {nav && (

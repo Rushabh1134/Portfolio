@@ -1,6 +1,6 @@
 import React from "react";
 import Typewriter from "typewriter-effect";
-import { FaLinkedinIn } from "react-icons/fa";
+import { FaLinkedinIn, FaInstagram, FaFacebook } from "react-icons/fa";
 import { MdOutlineEmail } from "react-icons/md";
 import { FaPhoneAlt } from "react-icons/fa";
 import bgImage from "../Images/Rkbg-image.jpeg"; // Update this path to your background image
@@ -26,7 +26,7 @@ const Homepage = () => {
             />
           </div> */}
           <div className="md:w-1/2 text-white text-center md:text-left">
-            <div className="text-4xl md:text-5xl font-medium pb-[2rem]  tracking-tight text-white">
+            <div className="text-3xl md:text-5xl font-medium pb-[2rem]  tracking-tight text-white">
               <Typewriter
                 options={{
                   strings: [
@@ -53,27 +53,37 @@ const Homepage = () => {
             </button>
             <div className="flex justify-center md:justify-start items-center mt-6 space-x-4">
               <a
-                href="https://www.linkedin.com/in/abhishek-sah-782409265/"
+                href="mailto:rushabh.musical17@gmail.com "
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-white"
               >
                 <span class="inline-flex justify-center items-center size-[40px] rounded-lg bg-[#A40700] text-white dark:bg-red-700 hover:bg-red-700">
-                  <FaLinkedinIn />
-                </span>
-              </a>
-              <a
-                href="https://www.linkedin.com/in/abhishek-sah-782409265/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-white hover:text-cyan-500"
-              >
-                <span class="inline-flex justify-center items-center size-[40px] rounded-full bg-[#A40700] text-white dark:bg-red-700 hover:bg-red-700">
                   <MdOutlineEmail />
                 </span>
               </a>
               <a
-                href="https://www.linkedin.com/in/abhishek-sah-782409265/"
+                href="https://www.instagram.com/rushabh_karangutkar/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-white"
+              >
+                <span class="inline-flex justify-center items-center size-[40px] rounded-lg bg-[#A40700] text-white dark:bg-red-700 hover:bg-red-700">
+                  <FaInstagram />
+                </span>
+              </a>
+              <a
+                href="https://www.facebook.com/rushabh.karangutkar/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-white"
+              >
+                <span class="inline-flex justify-center items-center size-[40px] rounded-lg bg-[#A40700] text-white dark:bg-red-700 hover:bg-red-700">
+                  <FaFacebook />
+                </span>
+              </a>
+              <a
+                href={`tel:72081 28020`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-white hover:text-cyan-500"

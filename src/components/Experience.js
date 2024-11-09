@@ -6,14 +6,14 @@ const experiences = [
     role: "Assistant music director",
     company: "Elixir Studio,",
     description:
-      "As an Assistant to the Music Director at Elixir Studio from December 17, 2021, to May 31, 2024, I had the invaluable opportunity to immerse myself deeply in the world of music production and composition. Throughout my tenure, I played a crucial role in various projects, supporting the music director in planning, organizing, and executing music production tasks. My responsibilities included collaborating on creative ideas during brainstorming sessions, assisting with sound engineering, mixing, and mastering, and using industry-standard software such as Pro Tools, Logic Pro, and Ableton Live. ",
+      "As Assistant to the Music Director at Elixir Studio (Dec 2021 - May 2024), I gained hands-on experience in music production and composition. I contributed to projects by supporting creative brainstorming, sound engineering, mixing, and mastering, using tools like Pro Tools, Logic Pro, and Ableton Live.",
     duration: "17 December 2021 - 31 May 2024 ",
   },
   {
     role: "Collaborative Experience with a Music Director",
     company: " ",
     description:
-      "Working closely with the music director on various projects has been an enriching and transformative experience, providing me with hands-on exposure to both music production and composition. I assisted in planning and executing music projects, contributing creative ideas during brainstorming sessions, and enhancing the overall quality of the projects. My involvement in the technical aspects of music production, such as sound engineering, mixing, and mastering, allowed me to use industry-standard software like Pro Tools, Logic Pro, and Ableton Live. ",
+      "Working closely with the music director gave me hands-on experience in music production and composition. I contributed to planning, creative brainstorming, and technical tasks like sound engineering, mixing, and mastering, using Pro Tools, Logic Pro, and Ableton Live.",
     duration: " ",
   },
   {

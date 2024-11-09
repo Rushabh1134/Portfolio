@@ -8,7 +8,13 @@ function Achievements() {
     "Completed portfolio project with React.js, TailwindCSS, and Vite",
     "Developed an Android app for Deaf and Mute communication",
     "Built a FastAPI Twitter-like API",
+    "Developed an Android app for Deaf and Mute communication",
     "Created fs-manager-cli for file system management",
+    "Developed an Android app for Deaf and Mute communication",
+    "Completed portfolio project with React.js, TailwindCSS, and Vite",
+    "Created fs-manager-cli for file system management",
+    "Built a FastAPI Twitter-like API",
+
     // Add more achievements as needed
   ];
 
@@ -76,7 +82,7 @@ function Achievements() {
 
           {/* Right column for achievements list */}
           <motion.div
-            className="w-full md:w-1/2"
+            className="w-full  md:w-1/2"
             initial="hidden"
             whileInView="visible"
             variants={topToBottomVariants}
@@ -85,7 +91,7 @@ function Achievements() {
             <ul className="list-disc list-inside text-white space-y-3">
               {/* Mapping through achievements array */}
               {achievements.map((achievement, index) => (
-                <li key={index} className="text-base sm:text-lg md:text-xl">
+                <li key={index} className="text-base sm:text-sm md:text-xl">
                   {achievement}
                 </li>
               ))}

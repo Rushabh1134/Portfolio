@@ -46,15 +46,15 @@ const About = () => {
         </p>
       </motion.div>
       <div className="w-full max-w-screen-xl mx-auto">
-        <div className="grid grid-cols-1 md:grid-cols-1 items-center gap-10 py-6 md:px-[5rem] lg:px-0">
+        <div className="grid grid-cols-1 md:grid-cols-1 items-center gap-10 py-4 md:px-[5rem] lg:px-0">
           <motion.div
-            className="p-6 rounded-lg w-[80%] m-auto shadow-lg hover:shadow-2xl transition-shadow duration-300 bg-gray-800 hover:bg-gray-700 transform hover:-translate-y-1 hover:scale-105  bg-gradient-to-r from-black to-[#383535]"
+            className="p-6 rounded-lg w-[90%] m-auto shadow-lg hover:shadow-2xl transition-shadow duration-300 bg-gray-800 hover:bg-gray-700 transform hover:-translate-y-1 hover:scale-105  bg-gradient-to-r from-black to-[#383535]"
             initial="hidden"
             whileInView="visible"
             variants={leftToRightVariants}
             viewport={{ once: false }}
           >
-            <p className="text-lg mb-4 md:text-xl lg:text-lg">
+            <p className="text-sm mb-2 md:text-xl lg:text-lg">
               Comfortable with all genres, I have a unique ability to craft
               music that resonates with a wide range of audiences. My portfolio
               includes successful collaborations with prominent media houses
@@ -62,11 +62,9 @@ const About = () => {
               Entertainment, Zee 5 & Planet Marathi.
             </p>
           </motion.div>
-
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols- items-center gap-10 py-6 md:mx-[5rem] md:m-auto lg:px-0">
-
           <motion.div
             className="text-center md:text-left px-4 md:px-10"
             initial="hidden"
@@ -77,37 +75,56 @@ const About = () => {
             <h1 className="text-3xl font-bold mb-[2rem]">Education & Skills</h1>
             <div className="mb-4 m-auto text-center">
               <h2 className="md:text-2xl  font-semibold ">Diploma in Music</h2>
-              <p className="md:text-lg sm:text-sm"> From Production True School of Music</p>
+              <p className="md:text-lg sm:text-sm">
+                {" "}
+                From Production True School of Music
+              </p>
               <p>Till - 13 June 2021</p>
             </div>
-           <div className="grid grid-cols-1 md:grid-cols-2 mt-[3rem] md:mt-[3rem] md:ml-[5rem]">
-           <div className="mb-4">
-              <h2 className="md:text-2xl font-semibold">
-              • Digital Audio Workstations (DAWs) :-
-              </h2>
-              <p className="md:text-lg ml-4"> Logic Pro, Ableton Live</p>
+            <div className="grid grid-cols-1 md:grid-cols-2 mt-[3rem] md:mt-[3rem] md:ml-[5rem]">
+              <div className="mb-4">
+                <h2 className="md:text-2xl font-semibold">
+                  • Digital Audio Workstations (DAWs) :-
+                </h2>
+                <p className="md:text-lg ml-4"> Logic Pro, Ableton Live</p>
+              </div>
+              <div className="mb-4">
+                <h2 className="md:text-2xl font-semibold">
+                  {" "}
+                  • Music Composition:-
+                </h2>
+                <p className="md:text-lg ml-4">
+                  MIDI Programming, orchestration, sound design
+                </p>
+              </div>
+              <div className="mb-4">
+                <h2 className="md:text-2xl font-semibold">
+                  {" "}
+                  • Sound Engineering :-
+                </h2>
+                <p className="md:text-lg ml-4">
+                  Mixing, mastering, recording techniques
+                </p>
+              </div>
+              <div className="mb-4">
+                <h2 className="md:text-2xl font-semibold">
+                  {" "}
+                  • Guitar (nylon, acoustic, electric)
+                </h2>
+              </div>
+              <div className="mb-4">
+                <h2 className="md:text-2xl font-semibold">
+                  {" "}
+                  • Keyboard and Piano
+                </h2>
+              </div>
+              <div className="mb-4">
+                <h2 className="md:text-2xl font-semibold">
+                  {" "}
+                  • All types of small Percussion
+                </h2>
+              </div>
             </div>
-            <div className="mb-4">
-              <h2 className="md:text-2xl font-semibold"> • Music Composition:-</h2>
-              <p className="md:text-lg ml-4">
-                MIDI Programming, orchestration, sound design
-              </p>
-            </div>
-            <div className="mb-4">
-              <h2 className="md:text-2xl font-semibold"> • Sound Engineering :-</h2>
-              <p className="md:text-lg ml-4">Mixing, mastering, recording techniques</p>
-            </div>
-            <div className="mb-4">
-              <h2 className="md:text-2xl font-semibold"> • Guitar (nylon, acoustic,
-                electric)</h2>
-            </div>
-            <div className="mb-4">
-              <h2 className="md:text-2xl font-semibold"> • Keyboard and Piano</h2>
-            </div>
-            <div className="mb-4">
-              <h2 className="md:text-2xl font-semibold"> • All types of small Percussion</h2>
-            </div>
-           </div>
           </motion.div>
         </div>
       </div>

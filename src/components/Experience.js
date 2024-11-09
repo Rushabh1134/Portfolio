@@ -22,10 +22,10 @@ const experiences = [
     description:
       " I have had the privilege of collaborating with many esteemed natak directors, playing a vital role in numerous successful theatrical productions. My contributions have been integral to bringing creative visions to life on stage, enhancing the overall impact and success of these performances.",
   },
-  {
-    description:
-      "Worked closely with the music director on various projects, gaining hands-on experience in music production and compostion.",
-  },
+  // {
+  //   description:
+  //     "Worked closely with the music director on various projects, gaining hands-on experience in music production and compostion.",
+  // },
 ];
 
 const headingVariants = {

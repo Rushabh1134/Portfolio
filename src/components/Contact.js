@@ -2,7 +2,13 @@ import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import { toast } from "react-toastify";
 import { motion } from "framer-motion";
-import { FaInstagram, FaFacebook, FaEnvelope, FaPhone } from "react-icons/fa";
+import {
+  FaInstagram,
+  FaFacebook,
+  FaEnvelope,
+  FaPhone,
+  FaLinkedin,
+} from "react-icons/fa";
 
 function Contact() {
   const formRef = useRef();
@@ -278,6 +284,27 @@ function Contact() {
                         rel="noopener noreferrer"
                       >
                         facebook.com/rushabh.karangutkar
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div className="mb-12 w-full md:w-1/2 lg:px-6">
+                  <div className="flex items-start">
+                    <div className="shrink-0">
+                      <div className="inline-block rounded-md bg-primary-100 text-primary">
+                        <FaLinkedin className="h-6 w-6 mr-2" />
+                      </div>
+                    </div>
+                    <div className="grow">
+                      <p className="mb-2  font-bold text-white">Facebook</p>
+
+                      <a
+                        href="https://www.linkedin.com/in/rushabh-karangutkar-75627b218/"
+                        className="text-neutral-500 dark:text-neutral-200 break-all"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        linkedin.com/in/rushabh-karangutkar
                       </a>
                     </div>
                   </div>

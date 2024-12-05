@@ -1,6 +1,11 @@
 import React from "react";
 import Typewriter from "typewriter-effect";
-import { FaLinkedinIn, FaInstagram, FaFacebook } from "react-icons/fa";
+import {
+  FaLinkedinIn,
+  FaInstagram,
+  FaFacebook,
+  FaLinkedin,
+} from "react-icons/fa";
 import { MdOutlineEmail } from "react-icons/md";
 import { FaPhoneAlt } from "react-icons/fa";
 import bgImage from "../Images/Rkbg-image.jpeg"; // Update this path to your background image
@@ -89,6 +94,16 @@ const Homepage = () => {
                 </span>
               </a>
               <a
+                href="https://www.linkedin.com/in/rushabh-karangutkar-75627b218/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-white"
+              >
+                <span class="inline-flex justify-center items-center size-[40px] rounded-lg bg-[#A40700] text-white dark:bg-red-700 hover:bg-red-700">
+                  <FaLinkedin />
+                </span>
+              </a>
+              {/* <a
                 href={`tel:72081 28020`}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -97,7 +112,7 @@ const Homepage = () => {
                 <span class="inline-flex justify-center items-center size-[40px] rounded-lg bg-[#A40700] text-white dark:bg-red-700 hover:bg-red-700">
                   <FaPhoneAlt />
                 </span>
-              </a>
+              </a> */}
               {/* <a
                 href="https://github.com/Abhisheksah09/"
                 target="_blank"

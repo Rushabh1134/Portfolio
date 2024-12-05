@@ -29,8 +29,8 @@ const StickyScroll = ({ content, contentClassName }) => {
 
   const backgroundColors = [
     "var(--neutral-900)",
-    "var(--cyan-900)",
-    "var(--gray-600)",
+    "var(--neutral-600)",
+    "var(--gray-800)",
     "var(--gray-900)",
   ];
   const linearGradients = [

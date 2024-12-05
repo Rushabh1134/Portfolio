@@ -296,7 +296,7 @@ function Contact() {
                       </div>
                     </div>
                     <div className="grow">
-                      <p className="mb-2  font-bold text-white">Facebook</p>
+                      <p className="mb-2  font-bold text-white">Linkedin</p>
 
                       <a
                         href="https://www.linkedin.com/in/rushabh-karangutkar-75627b218/"

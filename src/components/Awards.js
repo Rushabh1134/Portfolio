@@ -4,18 +4,11 @@ import imageUrl from "../Images/achieveimg.jpg";
 
 function Achievements() {
   const achievements = [
-    "Certified Full Stack Developer by RST FORUM",
-    "Completed portfolio project with React.js, TailwindCSS, and Vite",
-    "Developed an Android app for Deaf and Mute communication",
-    "Built a FastAPI Twitter-like API",
-    "Developed an Android app for Deaf and Mute communication",
-    "Created fs-manager-cli for file system management",
-    "Developed an Android app for Deaf and Mute communication",
-    "Completed portfolio project with React.js, TailwindCSS, and Vite",
-    "Created fs-manager-cli for file system management",
-    "Built a FastAPI Twitter-like API",
-
-    // Add more achievements as needed
+    "Certified Music Producer from True School of Music (TSM), skilled in music composition and sound design.",
+    "6-time Award Winner for Best Background Score in live Natak (theatre) performances, recognized for creating emotionally impactful soundscapes.",
+    "Creator of the unique Murshid title track, blending modern and electronic music elements.",
+    "Specialized in composing immersive theatre music that enhances storytelling and emotional depth.",
+    "Collaborated with leading artists, directors, and theatre groups to deliver distinctive and memorable soundtracks.",
   ];
 
   const headingVariants = {
@@ -91,7 +84,7 @@ function Achievements() {
             <ul className="list-disc list-inside text-white space-y-3">
               {/* Mapping through achievements array */}
               {achievements.map((achievement, index) => (
-                <li key={index} className="text-base sm:text-sm md:text-xl">
+                <li key={index} className="text-base py-[10px] sm:text-sm md:text-xl">
                   {achievement}
                 </li>
               ))}

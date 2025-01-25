@@ -15,6 +15,7 @@ import Zee5 from "../Images/Zee5.jpeg";
 import Dhruv from "../Images/Dhruv-Tara.jpeg";
 import Promo from "../Images/Promo.jpg";
 import Audio from "../Images/Audio.png";
+import ColorsAwads from "../Images/colours-awads.jpeg";
 
 const content = [
   // No 1 Aazam - Movie
@@ -338,7 +339,7 @@ const content = [
       <>
         <div className="h-full w-full object-cover relative flex items-center justify-center text-white">
           <img
-            src={Zee5}
+            src={ColorsAwads}
             width={300}
             height={300}
             className="h-full w-full object-cover shadow-md hover:scale-105 duration-500"

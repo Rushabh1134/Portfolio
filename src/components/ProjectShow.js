@@ -24,7 +24,7 @@ const content = [
     subTitle: "- Movie",
     description:
       "I contributed to developing a dynamic E-commerce website focused on clothing, improving user experience with features like userfriendly product browsing, secure payment gateways, personalized user accounts. Additionally, I implemented an intuitive admin panel for streamlined management of product listings, inventory tracking, and order fulfillment. Leveraging my expertise in React.js, JavaScript, Tailwind CSS, Node.js, Express.js, MongoDB, and Mongoose, I optimized the website's performance and enhanced its functionality. ",
-    githubLink: "https://youtu.be/qVkMaH6D8Sg?si=k2HrfwtrIX7SZt9p",
+    githubLink: "https://youtu.be/ApOjRqnDR3g?si=IxojBybvswZVk7rn",
     content: (
       <>
         <div className="h-full w-full relative flex items-center justify-center text-white">
@@ -51,7 +51,7 @@ const content = [
     subTitle: "- Web Series",
     description:
       "I have proficiently developed a robust User Management API with comprehensive Authentication and Authorization functionalities, encompassing user registration, login, user profile management, and OTP-based login. Additionally, the API includes email confirmation with OTP upon user signup. Notably, I also designed and implemented an Admin panel, restricting access to authorized personnel for viewing and updating user data. Leveraging my expertise in React.js, JavaScript, Tailwind CSS, Node.js, Express.js, MongoDB, and Mongoose, I successfully executed this project, showcasing my adeptness in full-stack web development.",
-    githubLink: "https://youtu.be/x5_nP5AKSgw?si=N2i65OehEcrz6Lsx",
+    githubLink: "https://youtu.be/Gc44u7ePbfg?si=spcXP92eNw_E1SsH",
 
     content: (
       <>
@@ -106,7 +106,7 @@ const content = [
     subTitle: "- Movie",
     description:
       "I crafted a user-friendly restaurant website with login/signup, table booking, and catering service reservations to simplify the dining experience for customers. Additionally, I've curated an engaging user experience by incorporating dynamic elements like interactive menus, enticing image galleries showcasing the restaurant's ambiance, and subtle animations throughout the site. The designed and implemented only the frontend of the restaurant website using HTML, CSS, and JavaScript.",
-    githubLink: "",
+    githubLink: "https://drive.google.com/drive/u/3/folders/1a4CoTUZRJE7_Z9nKqC_GV-U09piAuXol",
 
     content: (
       <>

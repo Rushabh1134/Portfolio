@@ -18,7 +18,34 @@ import Audio from "../Images/Audio.png";
 import ColorsAwads from "../Images/colours-awads.jpeg";
 
 const content = [
-  // No 1 Aazam - Movie
+  // Zapuk Zupuk - Movie
+  {
+    title: "Zapuk Zupuk",
+    subTitle: "- Movie",
+    description:
+      "I contributed to developing a dynamic E-commerce website focused on clothing, improving user experience with features like userfriendly product browsing, secure payment gateways, personalized user accounts. Additionally, I implemented an intuitive admin panel for streamlined management of product listings, inventory tracking, and order fulfillment. Leveraging my expertise in React.js, JavaScript, Tailwind CSS, Node.js, Express.js, MongoDB, and Mongoose, I optimized the website's performance and enhanced its functionality. ",
+    githubLink: "https://www.youtube.com/watch?v=uuuQmOFanQA",
+    content: (
+      <>
+        <div className="h-full w-full relative flex items-center justify-center text-white">
+          <img
+            src={Aazam}
+            width={300}
+            height={300}
+            className="h-full w-full object-cover shadow-md hover:scale-105 duration-500"
+            alt="linear board demo"
+            onClick={() =>
+              window.open(
+                "https://www.youtube.com/watch?v=uuuQmOFanQA",
+                "_blank"
+              )
+            }
+          />
+        </div>
+      </>
+    ),
+  },
+  // Aazam - Movie
   {
     title: "Aazam",
     subTitle: "- Movie",

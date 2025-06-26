@@ -16,6 +16,7 @@ import Dhruv from "../Images/Dhruv-Tara.jpeg";
 import Promo from "../Images/Promo.jpg";
 import Audio from "../Images/Audio.png";
 import ColorsAwads from "../Images/colours-awads.jpeg";
+import Zapuk from "../Images/Zapuk Zupuk.jpeg";
 
 const content = [
   // Zapuk Zupuk - Movie
@@ -29,7 +30,7 @@ const content = [
       <>
         <div className="h-full w-full relative flex items-center justify-center text-white">
           <img
-            src={Aazam}
+            src={Zapuk}
             width={300}
             height={300}
             className="h-full w-full object-cover shadow-md hover:scale-105 duration-500"

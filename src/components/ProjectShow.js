@@ -31,8 +31,8 @@ const content = [
         <div className="h-full w-full relative flex items-center justify-center text-white">
           <img
             src={Zapuk}
-            width={300}
-            height={300}
+            width={200}
+            height={200}
             className="h-full w-full object-cover shadow-md hover:scale-105 duration-500"
             alt="linear board demo"
             onClick={() =>

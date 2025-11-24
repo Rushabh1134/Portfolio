@@ -19,12 +19,41 @@ import ColorsAwads from "../Images/colours-awads.jpeg";
 import Zapuk from "../Images/Zapuk Zupuk.jpeg";
 import Nishedh from "../Images/Nishedh.jpeg";
 import Jolly from "../Images/Jolly.jpeg";
+import IMDB from "../Images/IMDB.jpeg";
 
 
 
 const content = [
-
-     // Nishedh Season 3 - Movie
+     
+   //Jolly LLB 3 - Movie
+  {
+    title: "IMDB ",
+    subTitle: "- ",
+    description:
+      "",
+       githubLink: "https://m.imdb.com/name/nm17637388/",
+    content: (
+      <>
+        <div className="h-full w-full relative flex items-center justify-center text-white">
+          <img
+            src={IMDB}
+            width={200}
+            height={200}
+            className="h-full w-full object-cover shadow-md hover:scale-105 duration-500"
+            alt="linear board demo"
+            onClick={() =>
+              window.open(
+                "https://m.imdb.com/name/nm17637388/",
+                "_blank"
+              )
+            }
+          />
+        </div>
+      </>
+    ),
+  },
+         
+     //Jolly LLB 3 - Movie
   {
     title: "Jolly LLB 3",
     subTitle: "- Movie",
@@ -190,28 +219,28 @@ const content = [
     ),
   },
 
-  {
-    title: "Makaan",
-    subTitle: "- Movie",
-    description:
-      "I crafted a user-friendly restaurant website with login/signup, table booking, and catering service reservations to simplify the dining experience for customers. Additionally, I've curated an engaging user experience by incorporating dynamic elements like interactive menus, enticing image galleries showcasing the restaurant's ambiance, and subtle animations throughout the site. The designed and implemented only the frontend of the restaurant website using HTML, CSS, and JavaScript.",
-    githubLink: "https://drive.google.com/drive/u/3/folders/1a4CoTUZRJE7_Z9nKqC_GV-U09piAuXol",
+  // {
+  //   title: "Makaan",
+  //   subTitle: "- Movie",
+  //   description:
+  //     "I crafted a user-friendly restaurant website with login/signup, table booking, and catering service reservations to simplify the dining experience for customers. Additionally, I've curated an engaging user experience by incorporating dynamic elements like interactive menus, enticing image galleries showcasing the restaurant's ambiance, and subtle animations throughout the site. The designed and implemented only the frontend of the restaurant website using HTML, CSS, and JavaScript.",
+  //   githubLink: "https://drive.google.com/drive/u/3/folders/1a4CoTUZRJE7_Z9nKqC_GV-U09piAuXol",
 
-    content: (
-      <>
-        <div className="h-full w-full object-cover relative flex items-center justify-center text-white">
-          <img
-            src={Makaan}
-            width={300}
-            height={300}
-            className="h-full w-full object-cover shadow-md hover:scale-105 duration-500"
-            alt="linear board demo"
-            onClick={() => window.open("", "_blank")}
-          />
-        </div>
-      </>
-    ),
-  },
+  //   content: (
+  //     <>
+  //       <div className="h-full w-full object-cover relative flex items-center justify-center text-white">
+  //         <img
+  //           src={Makaan}
+  //           width={300}
+  //           height={300}
+  //           className="h-full w-full object-cover shadow-md hover:scale-105 duration-500"
+  //           alt="linear board demo"
+  //           onClick={() => window.open("", "_blank")}
+  //         />
+  //       </div>
+  //     </>
+  //   ),
+  // },
 
   {
     title: "Athang",
@@ -562,29 +591,29 @@ const content = [
   },
 
   // No 14 Audio  - Audio Book
-  {
-    title: "Audios Drive Link",
-    subTitle: "- Audio Book",
-    description:
-      "I crafted a user-friendly restaurant website with login/signup, table booking, and catering service reservations to simplify the dining experience for customers. Additionally, I've curated an engaging user experience by incorporating dynamic elements like interactive menus, enticing image galleries showcasing the restaurant's ambiance, and subtle animations throughout the site. The designed and implemented only the frontend of the restaurant website using HTML, CSS, and JavaScript.",
-    githubLink:
-      "https://drive.google.com/drive/folders/1yX1X7cSRUHqRHKd7I21xWjBvwDZgILWi",
+  // {
+  //   title: "Audios Drive Link",
+  //   subTitle: "- Audio Book",
+  //   description:
+  //     "I crafted a user-friendly restaurant website with login/signup, table booking, and catering service reservations to simplify the dining experience for customers. Additionally, I've curated an engaging user experience by incorporating dynamic elements like interactive menus, enticing image galleries showcasing the restaurant's ambiance, and subtle animations throughout the site. The designed and implemented only the frontend of the restaurant website using HTML, CSS, and JavaScript.",
+  //   githubLink:
+  //     "https://drive.google.com/drive/folders/1yX1X7cSRUHqRHKd7I21xWjBvwDZgILWi",
 
-    content: (
-      <>
-        <div className="h-full w-full object-cover relative flex items-center justify-center text-white">
-          <img
-            src={Audio}
-            width={300}
-            height={300}
-            className="h-full w-full object-cover shadow-md hover:scale-105 duration-500"
-            alt="linear board demo"
-            onClick={() =>
-              window.open(
-                "https://drive.google.com/drive/folders/1yX1X7cSRUHqRHKd7I21xWjBvwDZgILWi",
-                "_blank"
-              )
-            }
+  //   content: (
+  //     <>
+  //       <div className="h-full w-full object-cover relative flex items-center justify-center text-white">
+  //         <img
+  //           src={Audio}
+  //           width={300}
+  //           height={300}
+  //           className="h-full w-full object-cover shadow-md hover:scale-105 duration-500"
+  //           alt="linear board demo"
+  //           onClick={() =>
+  //             window.open(
+  //               "https://drive.google.com/drive/folders/1yX1X7cSRUHqRHKd7I21xWjBvwDZgILWi",
+  //               "_blank"
+  //             )
+  //           }
           />
         </div>
       </>

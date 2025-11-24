@@ -25,7 +25,7 @@ import IMDB from "../Images/IMDB.jpeg";
 
 const content = [
      
-   //Jolly LLB 3 - Movie
+   //IMDB - Movie
   {
     title: "IMDB ",
     subTitle: "- ",
@@ -614,11 +614,11 @@ const content = [
   //               "_blank"
   //             )
   //           }
-          />
-        </div>
-      </>
-    ),
-  },
+  //         />
+  //       </div>
+  //     </>
+  //   ),
+  // },
 ];
 
 const headingVariants = {

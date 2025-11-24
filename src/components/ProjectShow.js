@@ -17,14 +17,75 @@ import Promo from "../Images/Promo.jpg";
 import Audio from "../Images/Audio.png";
 import ColorsAwads from "../Images/colours-awads.jpeg";
 import Zapuk from "../Images/Zapuk Zupuk.jpeg";
+import Nishedh from "../Images/Nishedh.jpeg";
+import Jolly from "../Images/Jolly.jpeg";
+
+
 
 const content = [
+
+     // Nishedh Season 3 - Movie
+  {
+    title: "Jolly LLB 3",
+    subTitle: "- Movie",
+    description:
+      "Jolly LLB 3 is a Hindi comedy‑drama where Akshay Kumar and Arshad Warsi reprise their lawyer roles, facing off in a court battle over a farmer’s death and corrupt land grabbing. The first half is witty and funny, while the second half gets serious, exposing corporate greed. I’ve composed the music for the first half and a few scenes in the second half.",
+    githubLink: "https://youtu.be/eSgJ8PfSUSk?si=hc51PUS7BYoYONb2",
+    content: (
+      <>
+        <div className="h-full w-full relative flex items-center justify-center text-white">
+          <img
+            src={Jolly}
+            width={200}
+            height={200}
+            className="h-full w-full object-cover shadow-md hover:scale-105 duration-500"
+            alt="linear board demo"
+            onClick={() =>
+              window.open(
+                "https://youtu.be/eSgJ8PfSUSk?si=hc51PUS7BYoYONb2",
+                "_blank"
+              )
+            }
+          />
+        </div>
+      </>
+    ),
+  },
+
+   // Nishedh Season 3 - series
+  {
+    title: "Nishedh Season 3",
+    subTitle: "- Series",
+    description:
+      "MTV Nishedh Season 3 is a youth‑focused drama that tackles taboo social issues. I have composed and scored all 9 episodes.",
+      githubLink: "https://youtu.be/7VJm4D6f_AM?si=WISAsC1zWrH4N6rM",
+    content: (
+      <>
+        <div className="h-full w-full relative flex items-center justify-center text-white">
+          <img
+            src={Nishedh}
+            width={200}
+            height={200}
+            className="h-full w-full object-cover shadow-md hover:scale-105 duration-500"
+            alt="linear board demo"
+            onClick={() =>
+              window.open(
+                "https://youtu.be/7VJm4D6f_AM?si=WISAsC1zWrH4N6rM",
+                "_blank"
+              )
+            }
+          />
+        </div>
+      </>
+    ),
+  },
+  
   // Zapuk Zupuk - Movie
   {
     title: "Zapuk Zupuk",
     subTitle: "- Movie",
     description:
-      "I contributed to developing a dynamic E-commerce website focused on clothing, improving user experience with features like userfriendly product browsing, secure payment gateways, personalized user accounts. Additionally, I implemented an intuitive admin panel for streamlined management of product listings, inventory tracking, and order fulfillment. Leveraging my expertise in React.js, JavaScript, Tailwind CSS, Node.js, Express.js, MongoDB, and Mongoose, I optimized the website's performance and enhanced its functionality. ",
+      "Zapuk Zupuk is a Marathi romantic‑drama about a boy’s whimsical journey to win his love, blending adventure, humor, and a touch of magic. I have done the background score for the movie.",
     githubLink: "https://www.youtube.com/watch?v=uuuQmOFanQA",
     content: (
       <>
@@ -51,7 +112,7 @@ const content = [
     title: "Aazam",
     subTitle: "- Movie",
     description:
-      "I contributed to developing a dynamic E-commerce website focused on clothing, improving user experience with features like userfriendly product browsing, secure payment gateways, personalized user accounts. Additionally, I implemented an intuitive admin panel for streamlined management of product listings, inventory tracking, and order fulfillment. Leveraging my expertise in React.js, JavaScript, Tailwind CSS, Node.js, Express.js, MongoDB, and Mongoose, I optimized the website's performance and enhanced its functionality. ",
+     "Azam is a Hindi crime‑thriller about Mumbai underworld power struggles after a dying don’s fate. Jimmy Shergill stars in the mix of gang drama and betrayal. I have done the score for the movie.",
     githubLink: "https://youtu.be/ApOjRqnDR3g?si=IxojBybvswZVk7rn",
     content: (
       <>
@@ -78,7 +139,7 @@ const content = [
     title: "Murshid",
     subTitle: "- Web Series",
     description:
-      "I have proficiently developed a robust User Management API with comprehensive Authentication and Authorization functionalities, encompassing user registration, login, user profile management, and OTP-based login. Additionally, the API includes email confirmation with OTP upon user signup. Notably, I also designed and implemented an Admin panel, restricting access to authorized personnel for viewing and updating user data. Leveraging my expertise in React.js, JavaScript, Tailwind CSS, Node.js, Express.js, MongoDB, and Mongoose, I successfully executed this project, showcasing my adeptness in full-stack web development.",
+      "Murshid is a crime‑drama web series that follows a young, idealistic cop who infiltrates a powerful crime syndicate to bring them down, navigating twists, loyalty tests, and moral dilemmas. I handled the BGM score and title track for the series, setting the tone for its intense, suspenseful vibe.",
     githubLink: "https://youtu.be/Gc44u7ePbfg?si=spcXP92eNw_E1SsH",
 
     content: (
@@ -106,7 +167,7 @@ const content = [
     title: "Yek Number ",
     subTitle: "- Movie",
     description:
-      "I contributed to developing a dynamic E-commerce website focused on clothing, improving user experience with features like userfriendly product browsing, secure payment gateways, personalized user accounts. Additionally, I implemented an intuitive admin panel for streamlined management of product listings, inventory tracking, and order fulfillment. Leveraging my expertise in React.js, JavaScript, Tailwind CSS, Node.js, Express.js, MongoDB, and Mongoose, I optimized the website's performance and enhanced its functionality. ",
+     "Yek Number is a 2025 Marathi comedy‑drama about a quirky group of friends who start a wild “number‑hunting” adventure to win a mysterious cash prize, leading to hilarious misadventures, friendship, and self‑discovery. I have done the BGM music for the movie, adding a fun, upbeat vibe to its journey.",
     githubLink: "https://youtu.be/PBh-j7fGi-s?si=6_O4458B4ciS7GY3",
     content: (
       <>
@@ -156,7 +217,7 @@ const content = [
     title: "Athang",
     subTitle: "- Web Series",
     description:
-      "I crafted a user-friendly restaurant website with login/signup, table booking, and catering service reservations to simplify the dining experience for customers. Additionally, I've curated an engaging user experience by incorporating dynamic elements like interactive menus, enticing image galleries showcasing the restaurant's ambiance, and subtle animations throughout the site. The designed and implemented only the frontend of the restaurant website using HTML, CSS, and JavaScript.",
+      "Aathang is a psychological thriller web series that dives into the dark, twisted mind of a serial‑killer who challenges the police with mind games and cryptic puzzles. The story follows a relentless detective trying to outsmart the killer before more lives are lost, with twists that keep you on edge. I handled the BGM for Aathang, crafting eerie, tension‑building music that heightens every suspenseful moment.",
     githubLink: "https://youtu.be/4ouv0WKMGhg?si=zxZiFtwjMBvkHhDW",
 
     content: (
@@ -184,7 +245,7 @@ const content = [
     title: "Dhruv Tara",
     subTitle: "- Serial",
     description:
-      "I crafted a user-friendly restaurant website with login/signup, table booking, and catering service reservations to simplify the dining experience for customers. Additionally, I've curated an engaging user experience by incorporating dynamic elements like interactive menus, enticing image galleries showcasing the restaurant's ambiance, and subtle animations throughout the site. The designed and implemented only the frontend of the restaurant website using HTML, CSS, and JavaScript.",
+      "Dhruv Tara is a Hindi drama serial that follows the inspiring journey of Dhruv, a young aspiring astronaut from a small town, and his supportive friend Tara as they chase dreams, face obstacles, and navigate love, family, and ambition. We have scored the BGM for the first 5 episodes, adding an uplifting and emotional vibe to the story.",
     githubLink:
       "https://drive.google.com/drive/folders/1yX1X7cSRUHqRHKd7I21xWjBvwDZgILWi",
 
@@ -214,7 +275,7 @@ const content = [
     title: "Mutaul Funds",
     subTitle: "- Advertisments Film",
     description:
-      "I crafted a user-friendly restaurant website with login/signup, table booking, and catering service reservations to simplify the dining experience for customers. Additionally, I've curated an engaging user experience by incorporating dynamic elements like interactive menus, enticing image galleries showcasing the restaurant's ambiance, and subtle animations throughout the site. The designed and implemented only the frontend of the restaurant website using HTML, CSS, and JavaScript.",
+      "Franklin Templeton Mutual Funds ad is a bright, feel‑good commercial that follows quirky character “Franky” as he guides a young investor through the world of mutual funds, using playful visuals and simple analogies to show how smart investing can help achieve life goals. I created the ad music for this spot, composing an upbeat, inspiring jingle that reinforces trust and optimism.",
     githubLink: "https://youtu.be/zOGQVk1cm1A?si=e6cCPhFkj-nELn-7",
 
     content: (
@@ -243,7 +304,7 @@ const content = [
     title: "Equity Mutaul Funds",
     subTitle: "- Advertisments Film",
     description:
-      "I crafted a user-friendly restaurant website with login/signup, table booking, and catering service reservations to simplify the dining experience for customers. Additionally, I've curated an engaging user experience by incorporating dynamic elements like interactive menus, enticing image galleries showcasing the restaurant's ambiance, and subtle animations throughout the site. The designed and implemented only the frontend of the restaurant website using HTML, CSS, and JavaScript.",
+      "Franklin Templeton Mutual Funds ad is a bright, feel‑good commercial that follows quirky character “Franky” as he guides a young investor through the world of mutual funds, using playful visuals and simple analogies to show how smart investing can help achieve life goals. I created the ad music for this spot, composing an upbeat, inspiring jingle that reinforces trust and optimism.",
     githubLink: "https://youtu.be/ehltsGW8wjY?si=MP3_MQaNUvm_MW-4",
 
     content: (
@@ -272,7 +333,7 @@ const content = [
     title: "Sensodent",
     subTitle: "- Advertisments Film",
     description:
-      "I crafted a user-friendly restaurant website with login/signup, table booking, and catering service reservations to simplify the dining experience for customers. Additionally, I've curated an engaging user experience by incorporating dynamic elements like interactive menus, enticing image galleries showcasing the restaurant's ambiance, and subtle animations throughout the site. The designed and implemented only the frontend of the restaurant website using HTML, CSS, and JavaScript.",
+      "Sensodent is a popular toothpaste ad that showcases bright smiles, fresh breath, and confidence‑boosting dental care. The commercial typically follows a relatable day‑in‑the‑life vibe—morning coffee, a confident meeting, a happy night out—highlighting Sensodent’s deep cleaning and protection against plaque and sensitivity. I composed the music for this ad, creating a fresh, lively tune that matches the sparkling vibe and leaves viewers with a feel‑good impression.",
     githubLink:
       "https://drive.google.com/file/d/1IvKdR-zvqYWpOJ97CGGx9KikqNPz_9Vr/view",
 
@@ -302,7 +363,7 @@ const content = [
     title: "TMU University",
     subTitle: "- Advertisments Film",
     description:
-      "I crafted a user-friendly restaurant website with login/signup, table booking, and catering service reservations to simplify the dining experience for customers. Additionally, I've curated an engaging user experience by incorporating dynamic elements like interactive menus, enticing image galleries showcasing the restaurant's ambiance, and subtle animations throughout the site. The designed and implemented only the frontend of the restaurant website using HTML, CSS, and JavaScript.",
+      "I have done the music for the TMU (Teerthanker Mahaveer University) promotional ad, creating an uplifting and inspiring track that highlights the university’s vibrant campus life, academic excellence, and student spirit. The music adds energy and a sense of pride, making the ad memorable and engaging.",
     githubLink: "https://youtu.be/tSlTS311sDE?si=laT3dCcKCVK_uain",
 
     content: (
@@ -360,7 +421,7 @@ const content = [
     title: "Colors Marathi Awards",
     subTitle: "- Promo",
     description:
-      "I crafted a user-friendly restaurant website with login/signup, table booking, and catering service reservations to simplify the dining experience for customers. Additionally, I've curated an engaging user experience by incorporating dynamic elements like interactive menus, enticing image galleries showcasing the restaurant's ambiance, and subtle animations throughout the site. The designed and implemented only the frontend of the restaurant website using HTML, CSS, and JavaScript.",
+      "I’ve created the promo music for the Colours Marathi Award Show, crafting an energetic and glamorous track that sets the tone for a star‑studded night, amps up excitement, and highlights the vibrant Marathi entertainment vibe. The music adds a celebratory feel, making the promo feel dynamic and buzz‑worthy.",
     githubLink: "https://youtu.be/eJehs2MXrY0?si=KDigC-DVHwPjaVZQ",
 
     content: (
@@ -389,7 +450,7 @@ const content = [
     title: " Chief Minister",
     subTitle: "- Promo",
     description:
-      "I crafted a user-friendly restaurant website with login/signup, table booking, and catering service reservations to simplify the dining experience for customers. Additionally, I've curated an engaging user experience by incorporating dynamic elements like interactive menus, enticing image galleries showcasing the restaurant's ambiance, and subtle animations throughout the site. The designed and implemented only the frontend of the restaurant website using HTML, CSS, and JavaScript.",
+      "I have done the promo music for the Chief Minister’s appearance on the show “Gupte Tithe Khupte,” crafting an engaging, upbeat track that highlights his charisma and connects with the audience. The music adds a lively, impactful vibe, making the promo feel energetic and memorable.",
     githubLink: "https://youtu.be/15vTWgUG-6Q?si=Z-9VbwV6HpVY1bjg",
 
     content: (
@@ -417,7 +478,7 @@ const content = [
     title: "Zee 5 Music",
     subTitle: "- Logo Music",
     description:
-      "I crafted a user-friendly restaurant website with login/signup, table booking, and catering service reservations to simplify the dining experience for customers. Additionally, I've curated an engaging user experience by incorporating dynamic elements like interactive menus, enticing image galleries showcasing the restaurant's ambiance, and subtle animations throughout the site. The designed and implemented only the frontend of the restaurant website using HTML, CSS, and JavaScript.",
+      "I’ve created the logo music for ZEE5, composing a dynamic, catchy tune that instantly signals the brand’s vibrant and premium streaming experience. The music adds a bold, modern identity to the ZEE5 logo, making it memorable and engaging for viewers.",
     githubLink: "https://youtu.be/ip6xDm0wuGs?si=tUngcWZD_xzxQDWu",
 
     content: (
@@ -446,7 +507,7 @@ const content = [
     title: " Chief Minister 1",
     subTitle: "- Promo",
     description:
-      "I crafted a user-friendly restaurant website with login/signup, table booking, and catering service reservations to simplify the dining experience for customers. Additionally, I've curated an engaging user experience by incorporating dynamic elements like interactive menus, enticing image galleries showcasing the restaurant's ambiance, and subtle animations throughout the site. The designed and implemented only the frontend of the restaurant website using HTML, CSS, and JavaScript.",
+      "I have done the promo music for the Chief Minister’s appearance on the show “Gupte Tithe Khupte,” crafting an engaging, upbeat track that highlights his charisma and connects with the audience. The music adds a lively, impactful vibe, making the promo feel energetic and memorable.",
     githubLink: "https://youtu.be/6Iz0cP1brsM?si=kiY50hW83SvbDior",
 
     content: (
@@ -475,7 +536,7 @@ const content = [
     title: "Promos Drive Link",
     subTitle: "- Promo",
     description:
-      "I crafted a user-friendly restaurant website with login/signup, table booking, and catering service reservations to simplify the dining experience for customers. Additionally, I've curated an engaging user experience by incorporating dynamic elements like interactive menus, enticing image galleries showcasing the restaurant's ambiance, and subtle animations throughout the site. The designed and implemented only the frontend of the restaurant website using HTML, CSS, and JavaScript.",
+     "This Drive link contains all the promo music I’ve done till now — a collection of the tracks I’ve created for various brands, shows, and events, showcasing my range from upbeat promos to emotional themes.",
     githubLink:
       "https://drive.google.com/drive/folders/1hCkcYfgt_fg-UA_YHliHuLI5DmnfxvBQ",
 
